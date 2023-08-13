@@ -1,0 +1,11 @@
+[package]
+name = "octa_debug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtfs-rt = "0.3.0"
+prost = "0.11.9"
+protobuf = {version = "3.2.0", features = ["with-bytes"]}
+reqwest = "0.11.18"
+tokio = {version = "1.31.0", features = ["full"]}
